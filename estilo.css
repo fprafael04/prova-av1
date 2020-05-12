@@ -1,0 +1,72 @@
+body{
+	background: linear-gradient(to bottom, #99ccff 0%, #ffffff 100%);
+	text-align: center;
+}
+header{
+	 background: linear-gradient(to bottom, #ffcc66 0%, #ccffff 100%);
+
+	padding: 10px;
+	margin: fixed-solid red 3px;
+	background
+}
+
+h2{
+	text-align: center;
+	font-style: bold; 
+}
+		#principal {
+			border: 10px solid transparent;
+       		padding: 15px;
+  			border-image: url(border.png) 30 stretch;
+			float: left;
+          border-style: solid; 
+          border-color: black; 
+          width: 200px; 
+          height: 300px;
+          margin: 5px;
+          
+          }
+          #verde {
+          	border: 10px solid transparent;
+       		padding: 15px;
+  			border-image: url(border.png) 30 stretch;
+          border-style: solid;
+          border-color: green;
+          width: 200px; 
+          height: 300px;
+          float: right;
+          margin: 5px;
+        }
+        #amarelo {
+       		border: 10px solid transparent;
+       		padding: 15px;
+  			border-image: url(border.png) 30 stretch;
+          border-style: solid; 
+          border-color: yellow;
+          width: 200px; 
+          height: 300px;
+          float: right;
+          margin: 5px;
+          }
+        #vermelho {
+          border: 10px solid transparent;
+  			padding: 15px;
+  			border-image: url(border.png) 30 stretch;
+          border-color: red; 
+          width: 200px; 
+          height: 300px;
+          float: right;
+          margin: 5px;
+
+        }
+        .dinamica{
+        	padding: 5px;
+          width: 190px;
+          height: 20px;
+          border-style: solid; 
+          border-color: blue;
+          text-align: center;
+          margin: 2px;
+          float: center;
+        }
+

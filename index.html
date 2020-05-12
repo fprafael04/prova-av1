@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head meta charset='utf-8'>
+  <title>Hospital Tudo Certo LTDA</title>
+  <link rel="stylesheet" type="text/css" href="css/estilo.css">
+  
+  
+</head>
+
+<body>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script type="text/javascript">
+    $ ( document ).ready(function(){
+      
+      var contador=0; 
+      
+
+      $("#btnPrincipal").click(function(){
+        var divMae = document.getElementById("principal");
+        var paciente = document.getElementById("paciente").value;
+        var element = document.createElement("div");
+        element.setAttribute('id', "elemento"+contador);
+        element.setAttribute('class', "dinamica");
+        element.innerHTML = paciente
+          divMae.appendChild(element);
+          console.log(element);
+                  
+        contador++;
+        $( ".dinamica" ).draggable();
+      });
+    });
+
+
+  </script>
+  <header >
+      <h1>Hospital Tudo Certo LTDA</h1>
+  </header>
+  <h2>Digite o nome do paciente</h2>
+  <br>
+  <div>
+    <input type=text id="paciente"></input> 
+    <button id="btnPrincipal">Entrada</button>
+  </div>
+  <br><br>
+  <div id= "principal" class="ui-widget-content">
+  </div>
+  <br>
+  <div id="verde">
+    ESTÁVEL
+  </div>
+  <div id="amarelo">
+    INSTÁVEL
+  </div>
+  <div id="vermelho">
+    GRAVE
+  </div>
+
+</body>
+
+</html
